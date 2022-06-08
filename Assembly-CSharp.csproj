@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9EBBE200-C205-CB0F-3E96-2C495BA48DD1}</ProjectGuid>
+    <ProjectGuid>{23A9E058-FA55-E9B2-2841-3E2EA1B8E465}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,7 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TestBehavior.cs" />
+    <Compile Include="Assets\Scripts\BallControl.cs" />
+    <Compile Include="Assets\Scripts\PadleControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -632,39 +633,78 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{86D06E22-F5D8-D88A-30C6-15CB0BC79596}</Project>
+      <Project>{FE9AFF5B-54C0-307F-52F8-AFC8630A60A7}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{479BDE20-AD7C-8750-199F-66CDF7FE7C73}</Project>
+      <Project>{9792129A-371A-84F8-5EF9-2BBC2F7CF1DE}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{FF670F24-3F86-CA10-875D-BF1E5717A41C}</Project>
+      <Project>{6D7EA77F-5BB5-FDF8-3D7E-005359343CE4}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{E6779F5A-6FFB-F881-3E3B-9489A63F7F69}</Project>
+      <Project>{59055B9C-C77E-8707-7209-07473B66B282}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{ADFE5189-558F-036C-4583-9E39C384B10B}</Project>
+      <Project>{121EF8C2-0D60-22B3-F6AA-FE1168493AC1}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{08201C3B-5814-3F97-A0F7-2894F8012669}</Project>
+      <Project>{E3CF9BB8-4115-7D32-F97D-1E363577EF99}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{6CC3B3A2-4020-5B80-3002-D778EF81300F}</Project>
+      <Project>{DF7F1AC9-ED2F-8104-56EA-2E58523594BC}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{18302530-5EE6-AE9F-8F61-8B8E81EE9BBC}</Project>
+      <Project>{5740A95F-4ABB-D119-3E65-53189E9E815B}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
+      <Project>{F4FD864D-9132-6540-7164-72A9BD7063A7}</Project>
+      <Name>Unity.2D.Path.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{48B2D98F-8F9B-3871-6B13-BBA92BE18C36}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
+      <Project>{08689BB0-E941-1090-62E5-DE011EEB79FA}</Project>
+      <Name>Unity.2D.Common.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{FEF04016-D783-DD4D-D8F0-53A709CE5224}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{BD89A70A-B74A-D7F7-C572-B242316670BA}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{12A99B78-388E-8A12-8609-A094DB342FEA}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{80939A4D-AF67-990E-CD7B-EE152AD58F0F}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{626E4249-43C9-58D3-8B90-BE1A57179444}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
+      <Project>{485E6E16-B322-719A-43A3-8C16059A3875}</Project>
+      <Name>Unity.2D.SpriteShape.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
