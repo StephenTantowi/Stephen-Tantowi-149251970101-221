@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{626E4249-43C9-58D3-8B90-BE1A57179444}</ProjectGuid>
+    <ProjectGuid>{068D0DD3-D283-3336-EAE5-DB3F5FB6EAF0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InternalAPIEditorBridge.001</AssemblyName>
@@ -56,9 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\InternalBridge\TexturePlatformSettings\TexturePlatformSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\InternalBridge\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\InternalBridge\InternalEditorBridge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\InternalBridge\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\InternalBridge\TexturePlatformSettings\TexturePlatformSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\InternalBridge\InternalBridgeDef.asmdef" />
@@ -670,11 +670,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{6ABAC334-4B3E-1B06-0D03-2E5DC73180BC}</Project>
+      <Project>{4E9F4874-BD46-CF7A-0F6A-A7E6489D0180}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{42BFC30F-36B6-71C4-FF52-6FCDD7E3B893}</Project>
+      <Project>{C8642116-C21F-BBE3-A8EC-134D8D54C106}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
