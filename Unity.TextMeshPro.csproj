@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3375ABF2-BCB5-BC3F-D583-0FE77C66C37C}</ProjectGuid>
+    <ProjectGuid>{E3CF9BB8-4115-7D32-F97D-1E363577EF99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro</AssemblyName>
