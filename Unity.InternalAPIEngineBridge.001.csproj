@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FEF04016-D783-DD4D-D8F0-53A709CE5224}</ProjectGuid>
+    <ProjectGuid>{B5E4F202-7461-4EFA-45FB-BB0051D3374D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InternalAPIEngineBridge.001</AssemblyName>
@@ -56,8 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Runtime\InternalBridge\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Runtime\InternalBridge\InternalEngineBridge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Runtime\InternalBridge\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.common@4.2.0\Runtime\InternalBridge\InternalBridgeDef.asmdef" />

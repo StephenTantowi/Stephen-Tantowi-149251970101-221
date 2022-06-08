@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BD89A70A-B74A-D7F7-C572-B242316670BA}</ProjectGuid>
+    <ProjectGuid>{02D28BA5-702C-66F3-9029-CB4207B87F66}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Mathematics.Editor</AssemblyName>
@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\PrimitiveVectorDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\MatrixDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\PostNormalizedVectorDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\QuaternionDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\PrimitiveVectorDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics.Editor\Unity.Mathematics.Editor.asmdef" />
@@ -668,15 +668,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{48B2D98F-8F9B-3871-6B13-BBA92BE18C36}</Project>
+      <Project>{0D07A425-B826-F41F-102D-734E8CD0ABFC}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{6ABAC334-4B3E-1B06-0D03-2E5DC73180BC}</Project>
+      <Project>{4E9F4874-BD46-CF7A-0F6A-A7E6489D0180}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{42BFC30F-36B6-71C4-FF52-6FCDD7E3B893}</Project>
+      <Project>{C8642116-C21F-BBE3-A8EC-134D8D54C106}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

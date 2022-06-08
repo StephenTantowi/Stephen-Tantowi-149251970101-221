@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{12A99B78-388E-8A12-8609-A094DB342FEA}</ProjectGuid>
+    <ProjectGuid>{B286B84D-ACC7-6427-4ED2-12C88BA768A4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Common.Editor</AssemblyName>
@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\TextureGenerator\TextureGeneratorHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\ImagePacker\Jobs\FindTightRectJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\ImagePacker\ImagePacker.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\TextureGenerator\TextureGeneratorHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\ImagePacker\ImagePackNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\ImagePacker\Jobs\FindTightRectJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@4.2.0\Editor\ImagePacker\ImagePackerDebugEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -673,15 +673,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{08689BB0-E941-1090-62E5-DE011EEB79FA}</Project>
+      <Project>{76F3233F-E5B6-8A17-1839-6228408438C2}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{6ABAC334-4B3E-1B06-0D03-2E5DC73180BC}</Project>
+      <Project>{4E9F4874-BD46-CF7A-0F6A-A7E6489D0180}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{42BFC30F-36B6-71C4-FF52-6FCDD7E3B893}</Project>
+      <Project>{C8642116-C21F-BBE3-A8EC-134D8D54C106}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

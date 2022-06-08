@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{80939A4D-AF67-990E-CD7B-EE152AD58F0F}</ProjectGuid>
+    <ProjectGuid>{EB22B569-9BFD-B4E9-4833-BB5B8BFA5394}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.SpriteShape.Runtime</AssemblyName>
@@ -56,24 +56,24 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\Spline.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\PriorityHeap.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\MeshUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\Tess.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\UTess2D\Tessellator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\UTess2D\ArraySlice.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\SpriteShapeGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\SplineUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\Dict.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\BezierUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\Spline.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\PriorityHeap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\SpriteShapeController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\PriorityQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\UTess2D\ArraySlice.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\SpriteShape.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\Sweep.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\Mesh.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\BezierUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\SpriteShapeGeometryCache.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\SpriteShapeController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\PriorityQueue.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\Geom.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\MeshUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Runtime\External\LibTessDotNet\LICENSE.txt" />
@@ -677,11 +677,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{08689BB0-E941-1090-62E5-DE011EEB79FA}</Project>
+      <Project>{76F3233F-E5B6-8A17-1839-6228408438C2}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{48B2D98F-8F9B-3871-6B13-BBA92BE18C36}</Project>
+      <Project>{0D07A425-B826-F41F-102D-734E8CD0ABFC}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
   </ItemGroup>
